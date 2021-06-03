@@ -1,1 +1,50 @@
 /*Maak hier jouw CSS!*/
+.container {
+    background-color: hsl(33, 100%, 93%);
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 190px 100px auto 50px;
+    grid-template-areas:
+    "a c c"
+    "b c c"
+    "b e d"
+    "b e g"
+    "f f f";
+}
+
+
+#item-a-Logo {
+    grid-area: a;
+}
+
+#item-b-Content {
+    grid-area: b;
+}
+
+#item-c-Menu {
+    grid-area: c;
+}
+
+#item-d-Subscribe {
+    grid-area: d;
+}
+
+#item-e-Agenda {
+    grid-area: e;
+}
+
+#item-G-ghostbox {
+    grid-area: g;
+}
+
+#item-f-Contact-us {
+    grid-area: f;
+
+
+
+;
+
+
+}
